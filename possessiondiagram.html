@@ -6,11 +6,11 @@
 
     <link rel="stylesheet" href="./possessiondiagram.css" />
 
-    <title>Entering and Leaving Possession</title>
+    <title>Entering and Leaving Possessions</title>
   </head>
   <body>
     <div class="container">
-      <h1 class="title">Entering and Leaving Possessions</h1>
+      <h1 class="title">Entering a Possession</h1>
 
       <div class="panels"></div>
 
@@ -25,19 +25,31 @@
           <div class="signal-red"></div>
         </div>
 
-        <div class="lamp">
+        <div id="lamp" class="lamp">
           <div class="lamp-base"></div>
           <div class="lamp-light"></div>
-          <div class="dets">
-            <div class="det"></div>
-            <div class="det"></div>
-            <div class="det"></div>
-          </div>
+        </div>
+
+        <div id="dets" class="dets">
+          <div class="det"></div>
+          <div class="det"></div>
+          <div class="det"></div>
+        </div>
+
+        <div id="marker-possession" class="marker-possession">
+          <div class="marker-possession-pole"></div>
+          <div class="marker-possession-head"></div>
+          <div class="marker-possession-red"></div>
+          <div class="marker-possession-sign">ENTERING POSSESSION</div>
         </div>
       </div>
 
       <div class="buttons">
         <button id="btn-start" class="btn">START</button>
+        <button id="btn-enter-block" class="btn hidden">ENTER BLOCK</button>
+        <button id="btn-enter-possession" class="btn hidden">
+          ENTER POSSESSION
+        </button>
       </div>
     </div>
     <script src="./possessiondiagram.js"></script>

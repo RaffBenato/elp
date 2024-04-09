@@ -89,7 +89,7 @@ body {
 .lamp {
   position: absolute;
   left: 150px;
-  top: 110px;
+  top: 90px;
   cursor: pointer;
 }
 
@@ -128,6 +128,74 @@ body {
   }
 }
 
+.dets {
+  position: absolute;
+  left: 200px;
+  top: 110px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.det {
+  height: 5px;
+  width: 15px;
+  background-color: orangered;
+}
+
+.marker-possession {
+  position: absolute;
+  left: 350px;
+  top: 40px;
+  cursor: pointer;
+}
+
+.marker-possession-pole {
+  height: 50px;
+  width: 5px;
+  background-color: black;
+  position: absolute;
+  top: 25px;
+  left: 12px;
+}
+
+.marker-possession-head {
+  height: 30px;
+  width: 30px;
+  background-color: orange;
+  position: absolute;
+  top: 0px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.marker-possession-red {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  border-radius: 50%;
+}
+
+.marker-possession-sign {
+  height: 30px;
+  min-width: 55px;
+  background-color: orange;
+  border: white 2px solid;
+  position: absolute;
+  top: 35px;
+  left: -13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
 .train {
   height: 48px;
   width: 100px;
@@ -152,15 +220,17 @@ body {
 
 .btn {
   height: 35px;
-  width: 100px;
+  min-width: 120px;
+  color: black;
   font-weight: bold;
   cursor: pointer;
-  background-color: rgb(119, 151, 184);
+  background-color: rgb(182, 133, 27);
+  padding: 6px;
 }
 
 .btn:hover {
-  background-color: rgb(65, 68, 91);
-  color: white;
+  background-color: rgb(25, 32, 87);
+  color: rgb(182, 133, 27);
 }
 
 .hidden {
