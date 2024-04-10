@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(65, 68, 91);
+  background-color: rgb(242, 244, 245);
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
 }
@@ -19,16 +19,32 @@ body {
   justify-content: center;
 }
 
-.title {
-  font-size: 2rem;
+.header {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(0, 25, 168);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
   color: white;
+  font-size: 1.3rem;
+}
+
+.logo {
+  height: 100%;
+}
+
+.title {
+  font-size: 1.4rem;
+  color: rgb(0, 25, 168);
 }
 
 .panels {
   height: 300px;
   width: 1000px;
   margin-top: 10px;
-  border: 2px solid rgb(119, 151, 184);
+  border: 2px solid rgb(0, 25, 168);
   border-radius: 20px;
 }
 
@@ -221,16 +237,16 @@ body {
 .btn {
   height: 35px;
   min-width: 120px;
-  color: black;
+  color: white;
   font-weight: bold;
   cursor: pointer;
-  background-color: rgb(182, 133, 27);
+  background-color: rgb(0, 25, 168);
   padding: 6px;
 }
 
 .btn:hover {
-  background-color: rgb(25, 32, 87);
-  color: rgb(182, 133, 27);
+  background-color: rgb(136, 140, 167);
+  color: rgb(0, 25, 168);
 }
 
 .hidden {
